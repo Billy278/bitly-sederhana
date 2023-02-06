@@ -1,0 +1,11 @@
+### create bitly
+POST http://localhost:7000/bitly
+Accept: application/json
+Content-Type: application/json
+
+{
+    "longlink":"https://www.youtube.com/"
+}
+###
+GET http://localhost:7000/bitly/bitly1
+Accept: application/json
