@@ -7,8 +7,8 @@ import (
 
 func ToResponseBitly(bitly domain.Bitly) web.ResponseBitly {
 	return web.ResponseBitly{
-		Id:        bitly.Id,
-		LongLink:  bitly.LongLink,
-		ShortLink: bitly.ShortLink,
+		//:        bitly.Id,
+		LongLink: bitly.LongLink,
+		//ShortLink: bitly.ShortLink,
 	}
 }

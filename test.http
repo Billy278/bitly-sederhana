@@ -4,8 +4,8 @@ Accept: application/json
 Content-Type: application/json
 
 {
-    "longlink":"https://www.youtube.com/"
+    "longlink":"https://facabook.com/"
 }
 ###
-GET http://localhost:7000/bitly/bitly1
+GET http://localhost:7000/bitly/bitly8
 Accept: application/json
