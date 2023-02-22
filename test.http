@@ -1,11 +1,11 @@
 ### create bitly
-POST http://localhost:7000/bitly
+POST http://localhost:7000/bitlygi
 Accept: application/json
 Content-Type: application/json
 
 {
-    "longlink":"https://facabook.com/"
+    "longlink":"digitalent.kominfo.go.id/akademi/FGA?page=2"
 }
 ###
-GET http://localhost:7000/bitly/bitly8
+GET http://localhost:7000/bitly/bitly6
 Accept: application/json

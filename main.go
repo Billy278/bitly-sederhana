@@ -15,6 +15,7 @@ import (
 )
 
 func main() {
+
 	db := app.NewDB()
 	validate := validator.New()
 	repositoryBitly := repository.NewBitlyRepositoryImpl()
